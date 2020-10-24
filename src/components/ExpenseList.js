@@ -7,7 +7,7 @@ import expenses from '../selectors/expenses';
 export const ExpenseList = (props) => (
     <div>
     {
-        props/expenses.length === 0 ? (
+        props.expenses.length === 0 ? (
             <p>No expenses</p>
         ) : (
             props.expenses.map((expense) => {

@@ -11,7 +11,7 @@ export default [{
     description: 'Rent',
     note: '',
     amount: 109500,
-    createdAt: moment(0).subtract(1, 'days').valueOf()
+    createdAt: moment(0).subtract(4, 'days').valueOf()
 }, {
     id: '3',
     description: 'Credit Card',
